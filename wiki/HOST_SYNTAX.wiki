@@ -4,7 +4,6 @@ Through this enhanced syntax, HostAdmin will gain additional ability by understa
 == Common Hosts syntax ==
   * Enabled Mapping
     IP DOMAIN [#COMMENT]
-
     {{{
     127.0.0.1       localhost #comment here
     }}}
@@ -99,3 +98,18 @@ Exampe:
 127.0.0.1       localhost3
 #====
 }}}
+
+== HostAdmin Built-in Editor ==
+[chrome://hostadmin/content/editor/hostadmin.html]
+
+With HostAdmin built-in Host syntax highlight editor, you can edit your Hosts file easily.
+
+=== Color ===
+  * <font color="#164">IP</font>
+  This is ip address
+
+  * <font color="#708">Keywords</font>
+  Parse by HostAdmin, e.g. # and #====
+
+  * <font color="#A50">Comment</font>
+  Comments ,  display or ignore

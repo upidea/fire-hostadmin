@@ -1,3 +1,5 @@
+#summary Guide to use HostAdmin Host Syntax
+
 = HostAdmin Host Syntax =
 Through this enhanced syntax, HostAdmin will gain additional ability by understanding your Hosts file. e.g. Grouping and Hiding.
 

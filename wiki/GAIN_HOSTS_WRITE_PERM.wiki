@@ -1,5 +1,5 @@
 #summary How to grant your account write permission to file hosts
-#labels Phase-Support
+#labels Phase-Support,Featured
 
 = How to grant your account write permissions to file hosts =
 
@@ -21,6 +21,12 @@ cacls %windir%/system32/drivers/etc/hosts /E /G "User Account Name":W
 
 
 == Linux (Ubuntu Fedora ...) ==
+
+{{{
+sudo chmod og+w /etc/hosts
+}}}
+
+== Mac OS X ==
 
 {{{
 sudo chmod og+w /etc/hosts

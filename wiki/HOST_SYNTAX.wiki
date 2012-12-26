@@ -36,7 +36,7 @@ Same comment will be parsed by HostAdmin
 }}}
 when comment is 'hide' (case-insensitive), that line would not display in menu. 
 
-*Note:* hiding hosts line is just not shown in the switching menu, HostAdmin manages it as well.
+*Note:* hiding hosts line is just not shown in the switching menu, while HostAdmin manages it as well.
 {{{
 127.0.0.1       localhost #hide
 #127.0.0.2       localhost #not hide
@@ -102,8 +102,22 @@ Exampe:
 #====
 }}}
 
+Note: 
+
+== Bulk Hide ==
+as its name, hide all of below.
+
+{{{
+#hide_all_of_below
+....
+
+#All text here will be parsed as comment
+
+....
+}}}
+
 == HostAdmin Built-in Editor ==
-[chrome://hostadmin/content/editor/hostadmin.html]
+[chrome://hostadmin/content/editor.html]
 
 With HostAdmin built-in Host syntax highlight editor, you can edit your Hosts file easily.
 
